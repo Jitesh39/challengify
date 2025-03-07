@@ -1,0 +1,138 @@
+
+main1 {
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../components/bg-signup.jpg'); /* Adjust path based on actual location */
+    width: 100vw; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
+    
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    background-color: white 
+}
+
+
+.login-container {
+    background-color: whitesmoke;
+    padding: 100px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  
+    padding: 30px;
+    
+}
+
+
+h21 {
+    text-align: center;
+    color: black; /* Change the color to black */
+    font-weight: bold
+}
+
+.loginForm{
+    margin-top: 50px;
+}
+
+.form-group1 {
+    margin-bottom: 35px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+.google-box-link {
+    display: inline-block;
+    padding: 10px 120px;
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.google-box-link:hover {
+    background-color: #f4f4f4;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+.login-link {
+    margin-top: 10px;
+    
+    font-size: 14px;
+    color: black;
+}
+
+.form-group2 p3 {
+    font-weight: bold;
+    margin: 0;
+    min-width: 50px; 
+    margin-right: 350px;
+    color: black;
+    
+}
+
+.role-selection label {
+    color: black; 
+   
+}
+
+.form-group1 label{
+    color: black;
+}
